@@ -1,0 +1,19 @@
+.animate{
+
+    animation: 0.5s infinite ease-in pings;
+    transition: all;
+    position: relative;
+}
+@keyframes pings {
+    0%{
+        left:0 ;
+    }
+   
+    100%{
+        left:100% ;
+    }
+}
+/* html, body {
+    overflow-x: hidden;
+  }
+   */
